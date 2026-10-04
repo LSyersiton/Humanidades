@@ -8,35 +8,81 @@
 </head>
 <body>
     <header class="header">
-        <menu class="menu">
+        <a class="logo" href="#top">lorem ipsum</a>
+        <nav class="menu">
             <ul class="menu-list">
-                <li>lorem ipsum</li>
-                <li>lorem ipsum</li>
-                <li>lorem ipsum</li>
+                <li><a href="#about">lorem ipsum</a></li>
+                <li><a href="#help">lorem ipsum</a></li>
+                <li><a href="#contac">lorem ipsum</a></li>
             </ul>
-        </menu>
+        </nav>
     </header>
-    <section class="section">
-        <div class="container">
-            <div class="content">
-                <div class="image">
-                    <img src="gatocomuneuropeo-97.jpg" alt="gato imagen">
-                </div>
-                <div class="text">
-                    <h1>lorem ipsum</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                </div>
-
-                <div class="content">
-                <div class="image">
-                    <img src="gatocomuneuropeo-97.jpg" alt="gato imagen">
-                </div>
-                <div class="text">
-                    <h1>lorem ipsum</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+    <main id="top">
+        <section class="hero">
+            <div class="container">
+                <!--svg class="wave" viewBox="0 0 600 60" preserveAspectRatio="none" aria-hidden="true">
+                    <polyline points="0,30 90,30 110,28 125,8 140,52 155,4 170,56 185,22 205,34 230,30 600,30"/>
+                </svg-->
+                <h1>¿Qué pasó?</h1>
+                <p class="lead">lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="actions">
+                    <a class="btn btn-outline" href="#about">See our work</a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="content">
+                    <div class="image">
+                        <img src="gatocomuneuropeo-97.jpg" alt="gato imagen">
+                    </div>
+                    <div class="text">
+                        <h1>A que se dedican?</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                    </div>
+                </div>
+                <div class="content-reverse">
+                    <div class="text">
+                        <h1>lorem ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                    </div>                
+                    <div class="image">
+                        <img src="gatocomuneuropeo-97.jpg" alt="gato imagen">
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section class="section section-dark" id="help">
+            <div class="container">
+                <h2>Maneras de ayudar</h2>
+                <div class="ways">
+                    <div class="way">
+                        <h3>Donar</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                        <a class="btn" href="#">Dona Ya</a>
+                    </div>
+                    <div class="way">
+                        <h3>Voluntarios</h3>
+                        <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                        <a class="btn btn-outline-light" href="#contact">Llenar formulario</a>
+                    </div>
+                    <div class="way">
+                        <h3>Compartir</h3>
+                        <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                        <a class="btn btn-outline-light" href="#contact">Find a drop-off</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="contact">
+            <div class="container contact">
+                <h2>Contacto</h2>
+                <p>Escribe a <a href="lolito@nose.com">lolito@nose.com</a> o llama al tin</p>
+                <p class="small">Lore ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
