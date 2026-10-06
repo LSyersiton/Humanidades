@@ -1,88 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Saberes de los pueblos indígenas antes de la llegada de los españoles</title>
 </head>
 <body>
     <header class="header">
-        <a class="logo" href="#top">lorem ipsum</a>
+        <img src="img/logo-poli-v.png" alt="Logo de la página" class="logo"/>
         <nav class="menu">
             <ul class="menu-list">
-                <li><a href="#about">lorem ipsum</a></li>
-                <li><a href="#help">lorem ipsum</a></li>
-                <li><a href="#contac">lorem ipsum</a></li>
+                <li><a href="#about">Saberes</a></li>
+                <li><a href="#video">formulario</a></li>
+                <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main id="top">
         <section class="hero">
             <div class="container">
-                <!--svg class="wave" viewBox="0 0 600 60" preserveAspectRatio="none" aria-hidden="true">
-                    <polyline points="0,30 90,30 110,28 125,8 140,52 155,4 170,56 185,22 205,34 230,30 600,30"/>
-                </svg-->
-                <h1>¿Qué pasó?</h1>
-                <p class="lead">lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <div class="actions">
-                    <a class="btn btn-outline" href="#about">See our work</a>
-                </div>
+                <h1>Ciencia y Tecnología Precolombina: Los Grandes Avances de las Civilizaciones de América Latina</h1>
+                <p class="lead">Durante mucho tiempo, la narrativa tradicional enseñó que la historia de América comenzó con la llegada de los navíos europeos en 1492. Sin embargo, bajo la espesa selva amazónica, en los picos helados de los Andes y entre las islas del Valle de México, florecían civilizaciones que ya habían descifrado el cosmos, dominado la matemática abstracta y desafiado la física.
+
+Sin herramientas de hierro, sin animales de tiro y en geografías implacables, los pueblos indígenas de América Latina erigieron metrópolis sobre lagos, trazaron calendarios más precisos que los europeos de la época y desarrollaron obras de ingeniería hidráulica que aún asombran al mundo moderno.
+
+Acompáñanos a descubrir cuáles eran las habilidades y ciencias en las que destacaron los verdaderos arquitectos del continente precolombino.</p>
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="about">
             <div class="container">
-                <div class="content">
-                    <div class="image">
-                        <img src="gatocomuneuropeo-97.jpg" alt="gato imagen">
+                <article class="content">
+                     <div class="image carousel" role="group" aria-roledescription="carrusel" aria-label="Terrazas de cultivo incas en los Andes">
+                        <div class="slides" tabindex="0">
+                            <img src="img/agricultura.jpg" alt="Terrazas de cultivo incas en los Andes">
+                            <img src="img/agricultura2.png" alt="Terrazas de cultivo incas en los Andes (imagen 2)">
+                            <img src="img/agricultura3.png" alt="Terrazas de cultivo incas en los Andes (imagen 3)">
+                        </div>
+                        <button class="carousel-btn prev" type="button" aria-label="Imagen anterior">&#8249;</button>
+                        <button class="carousel-btn next" type="button" aria-label="Imagen siguiente">&#8250;</button>
+                        <div class="dots"></div>
                     </div>
                     <div class="text">
-                        <h1>A que se dedican?</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                        <h2>1. Agricultura e Ingeniería Ambiental</h2>
+                        <p>Las culturas americanas adaptaron la tierra a sus necesidades mediante técnicas avanzadas de irrigación y conservación del suelo.</p>
+                        <h3>Chinampas (Mexicas / Aztecas)</h3>
+                        <p>Islas artificiales flotantes construidas sobre lagos con cañas, ramas y limo fértil. Permitían hasta 7 cosechas al año sin depender de las lluvias.</p>
+                        <h3>Andenes o Terrazas de Cultivo (Incas)</h3>
+                        <p>Escalones de piedra construidos en las laderas de los Andes. Prevenían la erosión, retenían la humedad y creaban microclimas para cultivar diferentes alimentos a distintas altitudes.</p>
+                        <h3>Nixtamalización</h3>
+                        <p>Proceso químico en Mesoamérica que cocía el maíz con agua y cal, liberando nutrientes esenciales como la vitamina B3 y haciendo el grano comestible y moldeable para las tortillas.</p>
                     </div>
-                </div>
-                <div class="content-reverse">
-                    <div class="text">
-                        <h1>lorem ipsum</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                    </div>                
-                    <div class="image">
-                        <img src="gatocomuneuropeo-97.jpg" alt="gato imagen">
-                    </div>
-                </div>
-            </div> 
-        </section>
+                </article>
 
-        <section class="section section-dark" id="help">
+                <article class="content-reverse">
+                    <div class="text">
+                        <h2>2. Astronomía y Calendarios</h2>
+                        <p>El estudio de los astros no solo era religioso, sino fundamental para la planificación agrícola y la navegación.</p>
+                        <h3>Precisión Maya</h3>
+                        <p>Calculó la duración del año solar en 365.2420 días, un valor con un margen de error mínimo respecto a las mediciones modernas (365.2422 días).</p>
+                        <h3>Seguimiento de Venus y la Luna</h3>
+                        <p>Los mayas registraron ciclos sinódicos complejos de Venus y predijeron eclipses solares y lunares con exactitud.</p>
+                        <h3>Orientación Arquitectónica</h3>
+                        <p>Edificios como El Castillo en Chichén Itzá o el Templo Mayor en Tenochtitlan fueron alineados geométricamente para señalar equinoccios y solsticios.</p>
+                    </div>
+                    <div class="image carousel" role="group" aria-roledescription="carrusel" aria-label="Terrazas de cultivo incas en los Andes">
+                        <div class="slides" tabindex="0">
+                            <img src="img/astronomia.jpg" alt="Terrazas de cultivo incas en los Andes">
+                            <img src="img/astronomia2.png" alt="Terrazas de cultivo incas en los Andes (imagen 2)">
+                            <img src="img/astronomia3.png" alt="Terrazas de cultivo incas en los Andes (imagen 3)">
+                        </div>
+                        <button class="carousel-btn prev" type="button" aria-label="Imagen anterior">&#8249;</button>
+                        <button class="carousel-btn next" type="button" aria-label="Imagen siguiente">&#8250;</button>
+                        <div class="dots"></div>
+                    </div>
+                </article>
+
+                <article class="content">
+                    <div class="image carousel" role="group" aria-roledescription="carrusel" aria-label="Terrazas de cultivo incas en los Andes">
+                        <div class="slides" tabindex="0">
+                            <img src="img/matematicas.png" alt="Terrazas de cultivo incas en los Andes">
+                            <img src="img/matematicas2.png" alt="Terrazas de cultivo incas en los Andes (imagen 2)">
+                            <img src="img/matematicas3.png" alt="Terrazas de cultivo incas en los Andes (imagen 3)">
+                        </div>
+                        <button class="carousel-btn prev" type="button" aria-label="Imagen anterior">&#8249;</button>
+                        <button class="carousel-btn next" type="button" aria-label="Imagen siguiente">&#8250;</button>
+                        <div class="dots"></div>
+                    </div>
+                    <div class="text">
+                        <h2>3. Matemáticas y Contabilidad</h2>
+                        <p>Desarrollaron sistemas numéricos abstractos y herramientas administrativas para gestionar grandes territorios y poblaciones.</p>
+                        <h3>El Cero y el Sistema Vigesimal (Mayas)</h3>
+                        <p>Los mayas fueron una de las primeras civilizaciones del mundo en concebir e implementar el concepto del número cero en su sistema de numeración vigesimal (base 20), usando puntos, rayas y conchas.</p>
+                        <h3>El Quipu (Incas)</h3>
+                        <p>Un sistema de cuerdas de colores con nudos posicionales que funcionaba como una base de datos decimal. Permitía registrar censos, cosechas, tributos y presupuestos estatales.</p>
+                        <h3>La Yupana</h3>
+                        <p>Ábaco incaico de piedra o madera utilizado para realizar operaciones aritméticas complejas rápidamente.</p>
+                    </div>
+                </article>
+
+                <article class="content-reverse">
+                    <div class="text">
+                        <h2>4. Ingeniería Civil, Arquitectura e Hidráulica</h2>
+                        <p>Diseñaron infraestructura a gran escala capaz de resistir terremotos, inundaciones y terrenos inhóspitos.</p>
+                        <h3>Arquitectura Sísmica (Incas)</h3>
+                        <p>Muros de piedra tallada con precisión milimétrica, encajadas sin mortero (puro ensamblaje). En caso de sismo, las piedras "bailan" y se reasientan sin colapsar.</p>
+                        <h3>Qhapaq Ñan (Red Vial Inca)</h3>
+                        <p>Una red de caminos de más de 30,000 kilómetros que conectaba los Andes, e incluía puentes colgantes elaborados con fibras vegetales (q'eswachaka).</p>
+                        <h3>Control de Aguas en Tenochtitlan</h3>
+                        <p>Creación del Albarradón de Nezahualcóyotl, un dique de 16 km de largo que separaba las aguas dulces de las saladas y protegía a la ciudad de inundaciones, acompañado de acueductos dobles para el agua potable.</p>
+                    </div>
+                    <div class="image carousel" role="group" aria-roledescription="carrusel" aria-label="Terrazas de cultivo incas en los Andes">
+                        <div class="slides" tabindex="0">
+                            <img src="img/ingenieria.jpg" alt="Terrazas de cultivo incas en los Andes">
+                            <img src="img/ingenieria2.png" alt="Terrazas de cultivo incas en los Andes (imagen 2)">
+                            <img src="img/ingenieria3.png" alt="Terrazas de cultivo incas en los Andes (imagen 3)">
+                        </div>
+                        <button class="carousel-btn prev" type="button" aria-label="Imagen anterior">&#8249;</button>
+                        <button class="carousel-btn next" type="button" aria-label="Imagen siguiente">&#8250;</button>
+                        <div class="dots"></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+<section class="section section-dark" id="video">
             <div class="container">
-                <h2>Maneras de ayudar</h2>
-                <div class="ways">
-                    <div class="way">
-                        <h3>Donar</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                        <a class="btn" href="#">Dona Ya</a>
-                    </div>
-                    <div class="way">
-                        <h3>Voluntarios</h3>
-                        <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                        <a class="btn btn-outline-light" href="#contact">Llenar formulario</a>
-                    </div>
-                    <div class="way">
-                        <h3>Compartir</h3>
-                        <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                        <a class="btn btn-outline-light" href="#contact">Find a drop-off</a>
-                    </div>
+                <h2>Formulario</h2>
+                <p class="video-intro">Déjanos saber que opinas acerca de esto.</p>
+                <div class="form-part">
+                    <button>formulario aquí</button>
                 </div>
             </div>
         </section>
         <section class="section" id="contact">
             <div class="container contact">
-                <h2>Contacto</h2>
-                <p>Escribe a <a href="lolito@nose.com">lolito@nose.com</a> o llama al tin</p>
-                <p class="small">Lore ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+                <h2>Referencias</h2>
+                <p>Coe, M. D., & Koontz, R. (2013). Mexico: From the Olmecs to the Aztecs. Thames & Hudson.</p>
+                <p class="small">(Respalda la construcción y productividad de las chinampas y el desarrollo de la nixtamalización en Mesoamérica).</p>
+                <p>Donkin, R. A. (1979). Agricultural Terracing in the Aboriginal New World. Wenner-Gren Foundation for Anthropological Research.</p>
+                <p class="small">(Estudio clave sobre el uso, la ingeniería y los microclimas de los andenes e ingeniería agrícola inca).</p>
+                <p>Aveni, A. F. (2001). Skywatchers: A Revised and Updated Version of Skywatchers of Ancient Mexico. University of Texas Press.</p>
+                <p class="small">(Obra de referencia sobre la arqueoastronomía maya y azteca, la medición de los ciclos de Venus y la alineación arquitectónica).</p>
+                <p>Lounsbury, F. G. (1978). Maya Numeration, Computation, and Calendar. Dictionary of Scientific Biography, 15, 759-818.</p>
+                <p class="small">(Detalla la precisión del calendario solar maya y el cálculo de eclipses).</p>
+                <p>Ifrah, G. (2000). The Universal History of Numbers: From Prehistory to the Invention of the Computer. John Wiley & Sons.</p>
+                <p class="small">(Analiza la invención independiente del concepto del cero y el sistema vigesimal por los mayas).</p>
+                <p>Ascher, M., & Ascher, R. (1981). Code of the Quipu: A Study in Media, Mathematics, and Culture. University of Michigan Press.</p>
+                <p class="small">(Análisis matemático e informático de la estructura decimal y lógica de registro en los quipus incas).</p>
+                <p>Protzen, J. P. (1993). Inca Architecture and Construction at Ollantaytambo. Oxford University Press.</p>
+                <p class="small">(Explica la técnica de cantería inca y la resistencia sísmica mediante ensamble de piedra sin mortero).</p>
+                <p>Hyslop, J. (1984). The Inka Road System. Academic Press.</p>
+                <p class="small">(Investigación sobre la red del Qhapaq Ñan y la ingeniería de puentes colgantes de fibra vegetal).</p>
             </div>
         </section>
     </main>
+    <script src="scripts.js"></script>
 </body>
 </html>
