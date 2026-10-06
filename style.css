@@ -189,28 +189,107 @@ a:focus-visible, .btn:focus-visible{
     border-left: 4px solid var(--gold);
 }
 
-.section-dark{ background-color: var(--ink); color: #fff; }
-.section-dark h2{ color: #fff; }
-.video-intro{ color: #cfcac2; max-width: 62ch; margin-bottom: 28px; }
-.video-frame{
-    position: relative;
-    aspect-ratio: 16 / 9;
-    max-width: 900px;
-    border-radius: 8px;
-    overflow: hidden;
-    background-color: #000;
-    border-bottom: 4px solid var(--gold);
+.section-dark{
+    background-color: #e5ece8;
+    color: var(--ink);
 }
-.video-frame video, .video-frame iframe{
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+
+.section-dark h2{
+    color: var(--jade);
 }
- 
+
+.video-intro{
+    color: var(--muted);
+}
+
 /* Contact */
 .contact{ max-width: 700px; }
 .contact a{ color: var(--jade); font-weight: 600; }
 .small{ font-size: 0.9rem; color: var(--muted); margin-top: 8px; }
 
+/* Formulario */
+.form-part{
+    width: 100%;
+    max-width: 700px;
+    height: 650px;
+    margin: 28px auto 0;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    border-bottom: 4px solid var(--gold);
+}
+
+.form-part iframe{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+/* Referencias */
+.references-section{
+    padding: 48px 32px;
+    background-color: #ebece6;
+    border-top: 1px solid #d8d8d0;
+}
+
+.references{
+    max-width: 1000px;
+}
+
+.references-header{
+    margin-bottom: 28px;
+}
+
+.references-label{
+    display: block;
+    margin-bottom: 6px;
+    color: var(--gold);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+.references-header h2{
+    color: var(--jade);
+    font-size: 1.8rem;
+    margin-bottom: 6px;
+}
+
+.references-header p{
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.references-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 36px;
+}
+
+.reference-item{
+    display: flex;
+    gap: 14px;
+    padding: 16px 0;
+    border-top: 1px solid #d2d3cc;
+}
+
+.reference-item span{
+    color: var(--gold);
+    font-family: "Bricolage Grotesque", Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.reference-item p{
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.82rem;
+    line-height: 1.5;
+}
+
+.reference-item em{
+    color: var(--ink);
+}
